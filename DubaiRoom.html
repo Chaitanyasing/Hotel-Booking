@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            background-color: rgb(17, 17, 53);
+            /* background-color: rgba(255, 9, 9, 0.85); */
+            padding: 5px;
+            text-align: center;
+            font-size: xx-large;
+
+
+        }
+
+        .iframe-container {
+            /* height: 800%;
+            width: 90%; */
+            height: 60vh;
+            width: 90vw;
+        }
+
+        th {
+            background-color: rgb(11, 11, 39);
+            color: white;
+        }
+
+        td {
+            background-color: #b1aba053;
+        }
+
+        li {
+            font-size: x-large;
+        }
+
+        body {
+            background-color: #fad39028;
+        }
+
+        table {
+            width: 600px;
+            height: 400px;
+            border: 2px;
+        }
+        i:hover{
+            background-color: rgb(17, 233, 53);
+            color:rgb(1, 5, 1);
+        }
+        a{
+           color: white;
+        }
+       
+    </style>
+</head>
+
+<body>
+
+    <div style="background-color: rgba(32, 226, 244, 0.123);">
+        <div class="header">
+            <h1 style="color: #fad390">
+                <i>Hotel Booking</i>
+            </h1>
+        </div>
+
+        
+        <marquee behavior="" direction="up" bgcolor="#e55039 " scrolldelay="300"
+            style="color: rgb(255, 255, 255); text-align: center;"><b><i>Our service 24*7 <br>Contact
+                    No.7894561235</i></b></marquee>
+    </div>
+
+     
+
+
+    <a href="Hotel.html"><input type="button" value="Back to serch"
+            style="height: 50px;width: 200px;font-size:larger;border-radius: 10px;background-color: #27292b62"></a>
+    <br><br>
+    
+    <p style="font-size:xx-large;color: rgb(40, 40, 139);"><b>Available Rooms</b></p>
+
+    <!--  Hotel -->
+    <center>
+        <table style="border-collapse: collapse;height: 200px;width: 900px;text-align: left;">
+            <thead>
+                <tr>
+                    <th style="font-size: xx-large;">Hotel Local Dubai, Jumeirah Village Triangle<br><span
+                            style="font-size:medium;">
+                            <p>Comfortable Accommodations: Hotel Local Dubai in Dubai offers
+                                family rooms with city views, equipped with modern amenities. Each room includes a bath,
+                                ensuring </p>
+                        </span> <br><input type="text" value="Available "
+                            style="border-radius: 10px;width: 100px;font-size: x-large; background-color: rgb(1, 210, 1);">
+                    </th>
+                    <th><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.2928846885093!2d55.191817375670134!3d25.058060377800714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6c53cc18494d%3A0x7717c6f2a4841fff!2sHotel%20Local%20Dubai%2C%20Jumeirah%20Village%20Triangle%2C%20Autograph%20Collection!5e0!3m2!1sen!2sin!4v1769530041764!5m2!1sen!2sin"
+                            width="300" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe></th>
+                </tr>
+            </thead>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Very Good Breakfast</li>
+                        <li>2 swimming pools</li>
+                        <li>2 restaurants</li>
+                        <li>High-speed Wi-Fi and dedicated workspace.</li>
+                    </ul>
+                    <br>
+                    <p style="text-align: center; font-size: xx-large;color: rgb(10, 10, 40);"><b>6,000RS</b><br><span
+                            style="font-size: medium;">12000rs per night x 2 night</span></p>
+                    <p style="text-align: center;font-size: xx-large;background-color: rgb(18, 18, 44);color: white;">
+                        <a href="Book Now.html"> <i>Book Now</i></a>
+                    </p>
+                </td>
+                <td><img src="data:image/jpeg;base64,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"
+                        alt="Jumeirah" style="height: 200px;"> <br>
+                    <h3>Guests who stayed here loved</h3><br>2
+                    “The room service was exceptional. <br> They kept the room clean at all times as <br> well as the
+                    concierge
+                    was very attentive”
+                </td>
+
+            </tr>
+
+        </table>
+    </center>
+    <br><br>
+
+    <!--  Sheraton -->
+    <center>
+        <table border="1" style="border-collapse: collapse;height: 200px;width: 900px;text-align: left;">
+            <thead>
+                <tr>
+                    <th style="font-size: xx-large;">Sheraton Dubai Creek Hotel & Towers<br><span
+                            style="font-size:medium;">
+                            <p>Offering a prime location in Deira on the banks of the Dubai
+                                Creek, this recently renovated, 5-star hotel has rooms with floor-to-ceiling windows
+                                overlooking the creek and the city.</p>
+                        </span>
+                        <br><input type="text" value="Available "
+                            style="border-radius: 10px;width: 100px;font-size: x-large; background-color: rgb(1, 210, 1);">
+                    </th>
+                    <th>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.270007923227!2d55.31114207567616!3d25.261500977669705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5d98998eab01%3A0x43788f91ec9688bb!2sSheraton%20Dubai%20Creek%20Hotel%20%26%20Towers!5e0!3m2!1sen!2sin!4v1769530639874!5m2!1sen!2sin"
+                            width="300" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </th>
+                </tr>
+            </thead>
+            <tr>
+                <td>
+                    <ul>
+                        <li>High-speed Wi-Fi and Bluetooth sound system.</li>
+                        <li>Automated lighting and curtain controls.</li>
+                        <li>Smart TV with streaming services.</li>
+                        <li>Daily housekeeping with evening turndown service</li>
+                        <li>Spa and wellness centre</li>
+                    </ul>
+                    <br>
+                    <p style="text-align: center; font-size: xx-large;color: rgb(10, 10, 40);"><b>10,000rs</b><br><span
+                            style="font-size: medium;">20,000rs per night x 2 night</span></p>
+                    <p style="text-align: center;font-size: xx-large;background-color: rgb(18, 18, 44);color: white;">
+                        <a href="Book Now.html"> <i>Book Now</i></a>
+                    </p>
+                </td>
+                <td>
+                    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/06/5d/8a/77/sheraton-dubai-creek.jpg?w=900&h=-1&s=1"
+                        alt="Sustainability" style="height: 200px;width: 300px;"> <br>
+                    <h3>Guests who stayed here loved</h3><br>2
+                    “The room service was exceptional. <br> They kept the room clean at all times as <br> well as the
+                    concierge
+                    was very attentive”
+                </td>
+            </tr>
+        </table>
+    </center>
+    <br><br>
+
+    <!-- DoubleTree -->
+    <center>
+        <table border="1" style="border-collapse: collapse;height: 200px;width: 900px;text-align: left;">
+            <thead>
+                <tr>
+                    <th style="font-size: xx-large;">DoubleTree by Hilton Dubai M Square Hotel<br><span
+                            style="font-size:medium;">
+                            <p>DoubleTree by Hilton Dubai M Square Hotel & Residences in Dubai offers luxurious rooms
+                                with air-conditioning, free WiFi, and modern amenities. Each room includes a work desk
+                            </p>
+                        </span>
+                        <br><input type="text" value="Available "
+                            style="border-radius: 10px;width: 100px;font-size: x-large; background-color: rgb(1, 210, 1);">
+                    </th>
+                    <th>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5935574146006!2d55.2982383756759!3d25.25061107767658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4325d680f131%3A0x68bba78259a0a95c!2sDoubleTree%20by%20Hilton%20Dubai%20M%20Square%20Hotel%20%26%20Residences!5e0!3m2!1sen!2sin!4v1769531580067!5m2!1sen!2sin"
+                            width="300" height="250px" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </th>
+                </tr>
+            </thead>
+            <tr>
+                <td>
+                    <ul>
+                        <li>Balcony</li>
+                        <li>Automated lighting and curtain controls.</li>
+                        <li>Excellent Breakfast</li>
+                        <li>Free on-site parking</li>
+                    </ul>
+                    <br>
+                    <p style="text-align: center; font-size: xx-large;color: rgb(10, 10, 40);"><b>10,000rs</b><br><span
+                            style="font-size: medium;">20,000rs per night x 2 night</span></p>
+                    <p style="text-align: center;font-size: xx-large;background-color: rgb(18, 18, 44);color: white;">
+                         <a href="Book Now.html"> <i>Book Now</i></a>
+                    </p>
+                </td>
+                <td>
+                    <img src="https://www.hilton.com/im/en/DXBMKDI/22568215/exterior-day.jpg?impolicy=crop&cw=5000&ch=2799&gravity=NorthWest&xposition=0&yposition=266&rw=768&rh=430"
+                        alt="Sustainability" style="height: 200px;width: 300px;"> <br>
+                     <h3>Guests who stayed here loved</h3><br>2
+                    “The room service was exceptional. <br> They kept the room clean at all times as <br> well as the
+                    concierge
+                    was very attentive”
+                </td>
+            </tr>
+        </table>
+    </center>
+
+
+</body>
+
+</html>

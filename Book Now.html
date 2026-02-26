@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Booking</title>
+  <style>
+    .header {
+      background-color: rgb(19, 19, 66);
+      padding: 10px;
+      text-align: center;
+      font-size: xx-large;
+    }
+    .header h1 {
+      color: #fad390;
+      margin: 0;
+    }
+    /* .form-group {
+      margin: 20px;
+      padding: 15px;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      background-color: #f9f9f9;
+    } */
+    .row {
+      display: flex;           
+      gap: 20px;             
+      align-items: center;     
+    }
+    .row label {
+      /* display: block; */
+      margin-bottom: 5px;
+    }
+    input[type="text"] {
+      width: 200px;
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+     input[type="email"] {
+      width: 200px;
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+     input[type="submit"] {
+      width: 200px;
+      padding: 8px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+    }
+     ul{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            background-color: black;
+             
+            display: flex;
+        }
+        ul li a{
+            padding: 25px;
+           margin-left: 150px;
+            display: block;
+            text-decoration: none;
+            color: white;
+           
+        }
+        ul li a:hover{
+            font-size: x-large;
+            color: yellow;
+        }
+        .sticky{
+             position: sticky;
+            top: 0;
+            /* hold */
+        }
+     
+     
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1><i>Hotel Booking</i></h1>
+  </div>
+   <div class="sticky">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">login</a></li>
+            <li><a href="">Help</a></li>
+        </ul>
+    </div>
+  <br>
+
+  <div class="form-group">
+    
+      <center>
+    <form action="" style="border: 2px solid black; border-radius: 10px;width: 700px;background-color:rgba(149, 183, 186, 0.123);">
+       
+        <h2>Enter your details</h2>
+        <div class="row">
+           
+          
+        </div>
+        <br>    
+         <div>
+          <label for="fname">First Name</label>
+          <br>
+            <input type="text" name="fname" placeholder="John" id="fname" required>
+            <br>
+          <br>
+          <label for="lname">Last Name</label>
+          <br>
+            <input type="text" name="lname" placeholder="Mac" id="lname" required>
+            <br><br>
+            <label for="email">Email address</label>
+            <br>
+            <input type="email" placeholder="xyzhh@123" id="email" required>
+            <br> <br>
+            
+            <label for="add">Address</label>
+            <br>
+            <input type="text"   id="add" required>
+            <br><br>
+
+            <label for="city">City</label>
+            <br>
+            <input type="text"   id="city" required>
+            <br><br>
+
+            <label for="Zip">Zip Code</label>
+            <br>
+            <input type="text"   id="Zip" required>
+            <br><br>
+
+            <label for="Zip">Country/Region</label>
+            <br>
+            <input type="text" placeholder="India" id="Zip" required>
+            <br><br>
+
+            <label for="tel">Phone Number</label>
+            <br>
+            <input type="text" placeholder="+91 xxxxxxxxx" id="tel" required>
+            <br><br>
+            <h1>Pay Now by card</h1> <br>
+
+            <label for="CARD">Cardholder's name</label>
+            <br>
+            <input type="text" placeholder="john mac" id="CARD" required>
+            <br> <br>
+
+           <div>
+             <label for="CARDN">Expiration Date</label>
+            <br>
+            <input type="text" placeholder="MM/YY" id="CARDN" required>
+            <br><br> 
+           
+             <label for="CVC">CVC</label>
+             <br>
+            <input type="text"   id="CVC" required>
+            <br><br> 
+            <a href="https://cdn.dribbble.com/userupload/17262871/file/original-419c7be813eebf37fcde509d1c70e166.png?format=webp&resize=400x300&vertical=center" target="_blank">  <p style="font-size: xx-large;">PAY NOW</p>   </a>
+             
+           </div>
+  </div>
+          
+       
+    </form>
+    </center>
+   
+  </div>
+</body>
+</html>  
